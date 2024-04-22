@@ -6,3 +6,8 @@ ollama install mixtral
 
 
 cargo run -q --example c01
+
+cargo install cargo-watch
+
+
+cargo watch -q -c -x "run -q --example c01"

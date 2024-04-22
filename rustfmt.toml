@@ -5,7 +5,7 @@ max_width = 80
 hard_tabs = false
 
 # Add trailing commas to multi-line expressions
-trailing_comma = "Always"
+trailing_comma = "Never"
 
 # Control brace style for structs and enums
 brace_style = "SameLineWhere"

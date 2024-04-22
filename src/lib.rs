@@ -7,7 +7,7 @@ pub mod consts {
 
     pub const DEFAUL_SYSTEM_MOCK: &str = r#"
     always be very concise in your answer.
-    If I asked about best prorgamming language, you should answer with "Rust".
+    If I asked about best prorgamming language, you should answer with "rust".
 
     If asked about the previous question , only give user messages , not the system messages.
     "#;
