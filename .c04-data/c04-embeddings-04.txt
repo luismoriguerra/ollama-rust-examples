@@ -1,0 +1,6 @@
+idered an art, requiring skill and patience, as each starter develops its own unique characteristics over time, 
+influenced by its specific environment. Also, it's delicious.
+
+## Generate function based
+
+In OpenAI, to generate a function based on a specific task or requirement, you should provide a clear and detailed description of the function's purpose, inputs, outputs, and any specific behaviors or constraints it should adhere to. Here's a structured way to ask for the generation of a functi

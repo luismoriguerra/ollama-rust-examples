@@ -1,0 +1,7 @@
+n:
+
+1. **Function Purpose**: Start by describing what you want the function to achieve. Be specific about the task or problem the function is designed to solve.
+
+2. **Inputs**: Specify the inputs the function should take. Include details about the type of each input (e.g., string, number, list) and any assumptions about the input values (e.g., non-negative numbers, non-empty strings).
+
+3. **Outputs**: Describe the expected output of the function. Include the output type and any specific conditi

@@ -1,0 +1,9 @@
+ns the output should meet.
+
+4. **Constraints and Behaviors**: If there are any specific constraints (e.g., time complexity, space usage) or behaviors (e.g., error handling, edge cases) the function should adhere to, mention them clearly.
+
+5. **Examples**: Providing one or more examples can be very helpful. For each example, list the input(s) and the expected output. This helps clarify the function's intended behavior.
+
+Here is an example request based on these guidelines:
+
+"I need a function th

@@ -1,0 +1,2 @@
+t calculates the area of a rectangle. The function should take two inputs: the length and the width of the rectangle, both of which are numbers greater than zero. The output should be a single number representing the area of the rectangle, calculated as the product of the length and width. The function should handle inputs that are not numbers by returning an error message. Could you generate a Python function that meets these requirements, including a simple error check for the input types?"
+

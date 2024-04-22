@@ -1,0 +1,1 @@
+his request clearly defines the function's purpose, inputs, outputs, and specific behaviors, making it easier to generate a precise and useful function.
