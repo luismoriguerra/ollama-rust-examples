@@ -1,0 +1,101 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in library 'xp_ollama'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--lib",
+                    "--package=xp-ollama"
+                ],
+                "filter": {
+                    "name": "xp_ollama",
+                    "kind": "lib"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'c01'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=c01",
+                    "--package=xp-ollama"
+                ],
+                "filter": {
+                    "name": "c01",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'c01'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=c01",
+                    "--package=xp-ollama"
+                ],
+                "filter": {
+                    "name": "c01",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'c02'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=c02",
+                    "--package=xp-ollama"
+                ],
+                "filter": {
+                    "name": "c02",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'c02'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=c02",
+                    "--package=xp-ollama"
+                ],
+                "filter": {
+                    "name": "c02",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
