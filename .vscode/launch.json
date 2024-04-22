@@ -81,6 +81,24 @@
         {
             "type": "lldb",
             "request": "launch",
+            "name": "Debug example 'c03'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=c03-chat",
+                    "--package=xp-ollama"
+                ],
+                "filter": {
+                    "name": "c03-chat",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
             "name": "Debug unit tests in example 'c02'",
             "cargo": {
                 "args": [
