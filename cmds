@@ -1,0 +1,8 @@
+
+
+ollama install mixtral
+
+/bye
+
+
+cargo run -q --example c01

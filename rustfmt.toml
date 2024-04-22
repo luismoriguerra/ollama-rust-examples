@@ -1,0 +1,20 @@
+# Set the maximum line width to 100 characters
+max_width = 80
+
+# Use tabs for indentation (default is spaces)
+hard_tabs = false
+
+# Add trailing commas to multi-line expressions
+trailing_comma = "Always"
+
+# Control brace style for structs and enums
+brace_style = "SameLineWhere"
+
+# Force the left margin to align vertically
+align_left_margin_comments = true
+
+# Sort imports alphabetically
+imports_granularity = "Crate"
+
+# Order imports by module
+reorder_imports = true
